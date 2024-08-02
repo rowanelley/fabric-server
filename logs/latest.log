@@ -1,0 +1,58 @@
+[17:17:33] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[17:17:33] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 21
+	- minecraft 1.21
+[17:17:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/rowan/Documents/GitHub/fabric-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:17:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:17:42] [main/INFO]: No existing world data, creating new world
+[17:17:43] [main/INFO]: Loaded 1290 recipes
+[17:17:43] [main/INFO]: Loaded 1399 advancements
+[17:17:44] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:17:44] [Server thread/INFO]: Loading properties
+[17:17:44] [Server thread/INFO]: Default game type: SURVIVAL
+[17:17:44] [Server thread/INFO]: Generating keypair
+[17:17:44] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
+[17:17:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:17:45] [Server thread/INFO]: Using default channel type
+[17:17:45] [Server thread/INFO]: Preparing level "world"
+[17:17:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:17:49] [Worker-Main-7/INFO]: Preparing spawn area: 2%
+[17:17:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[17:17:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[17:17:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:17:51] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[17:17:52] [Worker-Main-4/INFO]: Preparing spawn area: 18%
+[17:17:52] [Worker-Main-4/INFO]: Preparing spawn area: 18%
+[17:17:53] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[17:17:53] [Worker-Main-4/INFO]: Preparing spawn area: 51%
+[17:17:54] [Worker-Main-1/INFO]: Preparing spawn area: 85%
+[17:17:54] [Server thread/INFO]: Time elapsed: 4543 ms
+[17:17:54] [Server thread/INFO]: Done (8.783s)! For help, type "help"
+[17:18:12] [Server thread/INFO]: Stopping server
+[17:18:12] [Server thread/INFO]: Saving players
+[17:18:12] [Server thread/INFO]: Saving worlds
+[17:18:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
