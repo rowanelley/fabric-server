@@ -1,19 +1,82 @@
-[17:17:33] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[17:17:33] [main/INFO]: Loading 4 mods:
+[19:23:16] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[19:23:17] [main/INFO]: Loading 44 mods:
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
 	- fabricloader 0.15.11
 	   \-- mixinextras 0.3.5
 	- java 21
 	- minecraft 1.21
-[17:17:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/rowan/Documents/GitHub/fabric-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[17:17:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:17:42] [main/INFO]: No existing world data, creating new world
-[17:17:43] [main/INFO]: Loaded 1290 recipes
-[17:17:43] [main/INFO]: Loaded 1399 advancements
-[17:17:44] [Server thread/INFO]: Starting minecraft server version 1.21
-[17:17:44] [Server thread/INFO]: Loading properties
-[17:17:44] [Server thread/INFO]: Default game type: SURVIVAL
-[17:17:44] [Server thread/INFO]: Generating keypair
-[17:17:44] [Server console handler/ERROR]: Exception handling console input
+	- viafabric 0.4.15+84-main
+	   |-- cotton-client-commands 1.1.0+1.15.2
+	   \-- viafabric-mc1211 0.4.15+84-main
+	- viaversion 5.2.2-SNAPSHOT
+[19:23:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/rowan/Documents/godot-github-test/fabric-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[19:23:17] [main/INFO]: Compatibility level set to JAVA_17
+[19:23:17] [main/INFO]: Compatibility level set to JAVA_21
+[19:23:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[19:23:37] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[19:23:37] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:23:38] [main/INFO]: ViaVersion detected server version: 1.21-1.21.1 (767)
+[19:23:38] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[19:23:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:23:39] [ViaFabric-0/INFO]: You are running a development version of the plugin, please report any bugs to GitHub.
+[19:23:39] [main/INFO]: Found new data pack fabric, loading it automatically
+[19:23:39] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
+[19:23:43] [main/INFO]: Loaded 1290 recipes
+[19:23:43] [main/INFO]: Loaded 1399 advancements
+[19:23:44] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.112 ms
+[19:23:45] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:23:45] [Server thread/INFO]: Loading properties
+[19:23:45] [Server thread/INFO]: Default game type: SURVIVAL
+[19:23:45] [Server thread/INFO]: Generating keypair
+[19:23:45] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -30,29 +93,29 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
-[17:17:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:17:45] [Server thread/INFO]: Using default channel type
-[17:17:45] [Server thread/INFO]: Preparing level "world"
-[17:17:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:17:49] [Worker-Main-7/INFO]: Preparing spawn area: 2%
-[17:17:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[17:17:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[17:17:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:17:51] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[17:17:52] [Worker-Main-4/INFO]: Preparing spawn area: 18%
-[17:17:52] [Worker-Main-4/INFO]: Preparing spawn area: 18%
-[17:17:53] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[17:17:53] [Worker-Main-4/INFO]: Preparing spawn area: 51%
-[17:17:54] [Worker-Main-1/INFO]: Preparing spawn area: 85%
-[17:17:54] [Server thread/INFO]: Time elapsed: 4543 ms
-[17:17:54] [Server thread/INFO]: Done (8.783s)! For help, type "help"
-[17:18:12] [Server thread/INFO]: Stopping server
-[17:18:12] [Server thread/INFO]: Saving players
-[17:18:12] [Server thread/INFO]: Saving worlds
-[17:18:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:23:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:23:45] [Server thread/INFO]: Using default channel type
+[19:23:46] [Server thread/INFO]: Preparing level "world"
+[19:23:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:23:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:23:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:23:49] [Server thread/INFO]: Time elapsed: 885 ms
+[19:23:49] [Server thread/INFO]: Done (3.293s)! For help, type "help"
+[19:24:07] [User Authenticator #1/INFO]: UUID of player Teiflix is 33de722e-bb09-4df3-aec2-ec5a01295d81
+[19:24:13] [Server thread/INFO]: Teiflix[/127.0.0.1:51006] logged in with entity id 9 at (-8.5, 86.0, -9.5)
+[19:24:14] [Server thread/INFO]: Teiflix joined the game
+[19:24:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[19:24:53] [Server thread/INFO]: Teiflix lost connection: Disconnected
+[19:24:53] [Server thread/INFO]: Teiflix left the game
+[19:25:03] [Server thread/INFO]: Stopping server
+[19:25:03] [Server thread/INFO]: Saving players
+[19:25:03] [Server thread/INFO]: Saving worlds
+[19:25:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:25:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:25:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:25:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:25:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:25:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:25:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:25:05] [AWT-EventQueue-0/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[19:25:06] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
